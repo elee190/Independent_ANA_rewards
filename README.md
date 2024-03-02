@@ -1,1 +1,3 @@
 # Independent_ANA_rewards
+
+I am a big fan of reward ticket and ANA offers arguably the best reward ticket program between US and Japan/South Korea. Unfortunately ANA issues reward ticket at arbitrary schedules, most likely driven by their paid ticket availability so there is no good way to find availablities during a given time frame besides manual web search. This script runs web scraping technique on ANA's website, obtains available flight data with awards status, and forwards results during an XX-YY period to a list of email addresses. The detailed instructions on how to run is included in the script.
