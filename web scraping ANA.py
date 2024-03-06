@@ -137,12 +137,12 @@ def ana_data_inquiry(fromcity,tocity,depdate,retdate,interval,headcount,travelcl
         realfrom = 'San Jose(SJC - California)'
     elif (fromcity == 'Tokyo') | (fromcity == 'tokyo') | (fromcity == 'TOKYO'):
         realfrom = 'Tokyo(All)'
-    elif (fromcity == 'Shanghai') | (fromcity == 'shanghai') | (fromcity == 'SHANGHAI'):
-        realfrom = 'Shanghai (All)'
-    elif (fromcity == 'Beijing') | (fromcity == 'beijing') | (fromcity == 'BEIJING'):
-        realfrom = 'Beijing'
     elif (fromcity == 'Hong Kong') | (fromcity == 'hong kong') | (fromcity == 'HONG KONG'):
         realfrom = 'Hong Kong'
+    elif (fromcity == 'Seoul') | (fromcity == 'seoul') | (fromcity == 'SEOUL'):
+        realfrom = 'Seoul (All)'
+    elif (fromcity == 'Busan') | (fromcity == 'busan') | (fromcity == 'BUSAN'):
+        realfrom = 'Busan'
 
     if (tocity == 'Chicago') | (tocity == 'chicago') | (tocity == 'CHICAGO'):
         realto = 'Chicago(All)'
@@ -162,13 +162,12 @@ def ana_data_inquiry(fromcity,tocity,depdate,retdate,interval,headcount,travelcl
         realto = 'San Jose(SJC - California)'
     elif (tocity == 'Tokyo') | (tocity == 'tokyo') | (tocity == 'TOKYO'):
         realto = 'Tokyo(All)'
-    elif (tocity == 'Shanghai') | (tocity == 'shanghai') | (tocity == 'SHANGHAI'):
-        realto = 'Shanghai (All)'
-    elif (tocity == 'Beijing') | (tocity == 'beijing') | (tocity == 'BEIJING'):
-        realto = 'Beijing'
     elif (tocity == 'Hong Kong') | (tocity == 'hong kong') | (tocity == 'HONG KONG'):
         realto = 'Hong Kong'
-
+    elif (tocity == 'Seoul') | (tocity == 'seoul') | (tocity == 'SEOUL'):
+        realto = 'Seoul (All)'
+    elif (tocity == 'Busan') | (tocity == 'busan') | (tocity == 'BUSAN'):
+        realto = 'Busan'
 
 
 
